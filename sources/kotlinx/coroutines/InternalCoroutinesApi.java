@@ -9,9 +9,13 @@ import kotlin.annotation.AnnotationRetention;
 import kotlin.annotation.AnnotationTarget;
 
 /* compiled from: Annotations.kt */
-@Target({ElementType.TYPE, ElementType.METHOD})
-@Metadata(m302d1 = {"\u0000\n\n\u0002\u0018\u0002\n\u0002\u0010\u001b\n\u0000\b\u0087\u0002\u0018\u00002\u00020\u0001B\u0000¨\u0006\u0002"}, m301d2 = {"Lkotlinx/coroutines/InternalCoroutinesApi;", "", "kotlinx-coroutines-core"}, m300k = 1, m299mv = {1, 6, 0}, m297xi = 48)
-@kotlin.annotation.Target(allowedTargets = {AnnotationTarget.CLASS, AnnotationTarget.FUNCTION, AnnotationTarget.TYPEALIAS, AnnotationTarget.PROPERTY})
+@Target({ ElementType.TYPE, ElementType.METHOD })
+@Metadata(m302d1 = {
+        "\u0000\n\n\u0002\u0018\u0002\n\u0002\u0010\u001b\n\u0000\b\u0087\u0002\u0018\u00002\u00020\u0001B\u0000¨\u0006\u0002" }, m301d2 = {
+                "Lkotlinx/coroutines/InternalCoroutinesApi;", "",
+                "kotlinx-coroutines-core" }, m300k = 1, m299mv = { 1, 6, 0 }, m297xi = 48)
+@kotlin.annotation.Target(allowedTargets = { AnnotationTarget.CLASS, AnnotationTarget.FUNCTION,
+        AnnotationTarget.TYPEALIAS, AnnotationTarget.PROPERTY })
 @Retention(RetentionPolicy.CLASS)
 @kotlin.annotation.Retention(AnnotationRetention.BINARY)
 /* loaded from: classes.dex */

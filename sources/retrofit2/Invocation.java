@@ -33,6 +33,7 @@ public final class Invocation {
     }
 
     public String toString() {
-        return String.format("%s.%s() %s", this.method.getDeclaringClass().getName(), this.method.getName(), this.arguments);
+        return String.format("%s.%s() %s", this.method.getDeclaringClass().getName(), this.method.getName(),
+                this.arguments);
     }
 }
